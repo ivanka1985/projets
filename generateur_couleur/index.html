@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #colorPreview {
+      width: 100%;
+      height: 500px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+<!----   These HTML elements define the structure of the user interface (UI) components.
+<div class="container"> groups the UI components together.
+<div class="input-group"> contains a label and an <input> element with type="color" for color selection.
+<div class="range-group"> contains a label, a value display, and an <input> element with type="range" for orientation selection.
+<div class="buttons-container"> groups the two buttons.-->
+
+  <div class="container">
+    <div class="input-group">
+      <label for="color1">#FF5F6D</label>
+      <input type="color" id="color1">
+    </div>
+
+    <div class="input-group">
+      <label for="color2">#FFC371</label>
+      <input type="color" id="color2">
+    </div>
+    <div class="range-group">
+      <label for="orientation">
+        <span>Orientation:</span><br>
+        <span class="orientation-value">90</span>
+      </label>
+      <input type="range" id="orientation" min="0" max="360" value="90" class="inp-range">
+    </div>
+    <br>
+    <div class="buttons-container">
+      <button class="copy-color-btn" type="button">
+        <span>Copy Color</span>
+      </button>
+      <button class="random-btn" type="button">
+        <span>Random</span>
+      </button>
+    </div>
+  </div>
+  <br><br>
+<!---  This <div> element with the id="colorPreview" is an empty element that will be used to preview the gradient color.--->
+
+  <div id="colorPreview"></div>
+
+  <script src="./gencouleur.js"></script>
+</body>
+</html>
