@@ -10,10 +10,12 @@
 </head>
 
 <body>
+
+<!------  BACKGROUND   ----------->
     <div class="background">
         <h1>Quizz Culture Web</h1>
 
-
+<!------  QUESTION 1   ----------->
             <div id="divQuestion1" class="question1">
                 <h3>Qui a inventé le World Wide Web (www)</h3>
                     <input type="radio" id="Bill" name="question1" value="Bill">
@@ -26,7 +28,7 @@
                     <label for="Tim">Tim Berners-Lee</label><br>
             </div>
 
- 
+<!------  QUESTION 2   ----------->
             <div id="divQuestion2" class="question2">
                 <h3>Quel est le language le plus utilisé dans le monde?</h3>
                     <input type="radio" id="Python" name="question2" value="Python">
@@ -39,7 +41,7 @@
                     <label class="form-check-label" for="Java">Java</label><br>
             </div>
    
-
+<!------  QUESTION 3   ----------->
             <div id="divQuestion3" class="question3">
                 <h3>Comment afficher "Hello World" dans la console en Javascript?</h3>
                     <input type="radio" id="Hello" name="question3" value="Hello">
@@ -52,7 +54,7 @@
                     <label for="Console">console.log ("Hello world")</label><br>
             </div>
 
-
+<!------  QUESTION 4   ----------->
 
             <div id="divQuestion4" class="question4">
                 <h3>Qu'est-ce que l'open source?</h3>
@@ -67,7 +69,7 @@
             </div>
 
 
-            
+  <!------  QUESTION 5   ----------->          
             <div id="divQuestion5" class="question5">
                 <h3>Quelle entreprise est le plus grand fournisseur de services de cloud computing dans le monde?</h3>
                     <input type="radio" id="Amazon" name="question5" value="Amazon">
@@ -81,11 +83,12 @@
             </div>
         </div>
     
-
+<!------  BUTTON  ----------->
     <div class="button">
         <button type="button" class="btn" onclick="soumettreQuiz()">Valider</button>
     </div>
-    
+
+ <!------  RESULTATS   ----------->   
     <div class="p">
         <p>Cliquez sur <b>valider</b> pour voir les <b>résultats</b></p>
         <p id="score"></p>
