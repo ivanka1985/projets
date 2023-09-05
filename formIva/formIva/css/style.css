@@ -1,0 +1,55 @@
+body{
+    margin: none;
+}
+
+h1{
+   padding-left: 70px;
+    padding-top: 30px;
+}
+/* background image */
+.img{
+    background-image: url(../fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+}
+
+.white{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.error{
+    color: red;
+}
+
+/* border none */
+input[type="text"],
+input[type="password"],
+textarea {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc; 
+}
+
+/* border none */
+#signe {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc; 
+}
+
+/* button inscription */
+.button{
+    background-image: url(../fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
