@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+
+    <title>Quizz Culture Web</title>
+</head>
+
+<body>
+    <div class="background">
+        <h1>Quizz Culture Web</h1>
+
+
+            <div id="divQuestion1" class="question1">
+                <h3>Qui a inventé le World Wide Web (www)</h3>
+                    <input type="radio" id="Bill" name="question1" value="Bill">
+                    <label for="form-check" for="Bill">Bill Gates</label><br>
+                       
+                    <input type="radio" name="question1" id="Steve" value="Steve">
+                    <label for="Steve">Steve Jobs</label><br>
+        
+                    <input  type="radio" name="question1" id="Tim" value ="Tim">
+                    <label for="Tim">Tim Berners-Lee</label><br>
+            </div>
+
+ 
+            <div id="divQuestion2" class="question2">
+                <h3>Quel est le language le plus utilisé dans le monde?</h3>
+                    <input type="radio" id="Python" name="question2" value="Python">
+                    <label for="form-check">Python</label><br>
+
+                    <input class="form-check-input" type="radio" name="question2" id="Javascript" value="Javascript">
+                    <label class="form-check-label" for="Javascript">Javascript</label><br>
+
+                    <input class="form-check-input" type="radio" name="question2" id="Java" value="Java">
+                    <label class="form-check-label" for="Java">Java</label><br>
+            </div>
+   
+
+            <div id="divQuestion3" class="question3">
+                <h3>Comment afficher "Hello World" dans la console en Javascript?</h3>
+                    <input type="radio" id="Hello" name="question3" value="Hello">
+                    <label for="form-check">Hello world</label><br>
+
+                    <input type="radio" name="question3" id="Print" value="Print">
+                    <label for="Print">print("Hello world")</label><br>
+ 
+                    <input type="radio" name="question3" id="Console" value="Console">
+                    <label for="Console">console.log ("Hello world")</label><br>
+            </div>
+
+
+
+            <div id="divQuestion4" class="question4">
+                <h3>Qu'est-ce que l'open source?</h3>
+                    <input type="radio" id="logiciel" name="question4" value="logiciel">
+                    <label for="logiciel">Un logiciel gratuit</label><br>
+                
+                    <input type="radio" name="question4" id="Accessible" value="Accessible">
+                    <label for="Accessible">Un logiciel dont le code source est accessible à tous</label><br>
+
+                    <input type="radio" name="question4" id="Interface" value="Interface">
+                    <label for="Interface">Un logiciel avec une interface utilisateur facile à utiliser</label><br>
+            </div>
+
+
+            
+            <div id="divQuestion5" class="question5">
+                <h3>Quelle entreprise est le plus grand fournisseur de services de cloud computing dans le monde?</h3>
+                    <input type="radio" id="Amazon" name="question5" value="Amazon">
+                    <label for="Amazon">Amazon Web Service</label><br>
+
+                    <input type="radio" name="question5" id="Google" value="Google">
+                    <label for="Google">Google Cloud Platform</label><br>
+                
+                    <input type="radio" name="question5" id="Azure" value="Azure">
+                    <label for="Azure">Microsoft Azure</label><br>
+            </div>
+        </div>
+    
+
+    <div class="button">
+        <button type="button" class="btn" onclick="soumettreQuiz()">Valider</button>
+    </div>
+    
+    <div class="p">
+        <p>Cliquez sur <b>valider</b> pour voir les <b>résultats</b></p>
+        <p id="score"></p>
+        <p id="commentaire"></p>
+    </div>
+
+    </div>
+
+    <script src="questionaire.js"></script>
+
+</body>
+</html>
