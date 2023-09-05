@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>exercices jQuery : événements</h1>
+        <h2>concepts fondamentaux et avancés en jQuery</h2>
+      </header>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_1">
+        <header class="clearfix">
+          <h1>3.1</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>clic</mark> sur la boîte, <mark>cacher la boîte</mark>.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+      
+          <div id="boite31">boîte</div>
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_2">
+        <header class="clearfix">
+          <h1>3.2</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>clic</mark> sur la boîte 0, <mark>cacher ou afficher la boîte 1</mark> (utiliser le ciblage par classe).</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+      
+          <div class="boite320">boîte 0</div>
+          <div class="boite321">boîte 1</div>
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_3">
+        <header class="clearfix">
+          <h1>3.3</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>double-clic</mark> sur la boîte 0, <mark>alterner l'attribution de la class highlight</mark> à la boîte 1 (attribuer / supprimer successivement).</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+      
+          <div id="boite330">boîte 0</div>
+          <div class="highlight" id="boite331">boîte 1</div>
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_4">
+        <header class="clearfix">
+          <h1>3.4</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>double-clic</mark> sur la boîte 0, <mark>alterner l'affichage</mark> de la boîte 1 (cacher / afficher successivement).</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+      
+          <div class="boite340">boîte 0</div>
+          <div class="boite341">boîte 1</div>
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_5">
+        <header class="clearfix">
+          <h1>3.5</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>survol</mark>, <mark>cacher la boîte avec un effet de fade out</mark>.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+      
+          <div class="boite350">boîte</div>
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_6">
+        <header class="clearfix">
+          <h1>3.6</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>survol</mark>, <mark>diminuer l'opacité de la boîte de 50%</mark>. Rétablir l'opacité lors de la sortie de l'élément.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+      
+          <div id="boite36">boîte</div>
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_7">
+        <header class="clearfix">
+          <h1>3.7</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>obtenir le focus</mark> sur le champ de formulaire, <mark>cacher la boîte</mark>.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+        <form action="" id="boite37">
+          <input id="champ37" type="text" placeholder="champ de formulaire">
+        </form>
+        <div class="boite37">Boite</div>
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_8">
+        <header class="clearfix">
+          <h1>3.8</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>perdre le focus</mark> sur le champ de formulaire, <mark>cacher la boîte</mark>.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+        <form action="">
+          <input id="boite38" type="text" placeholder="champ de formulaire">
+        </form>
+        <div id="champ38">Boite</div>
+       
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_9">
+        <header class="clearfix">
+          <h1>3.9</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>valeur de contenu modifiée</mark> sur le champ de formulaire, <mark>cacher la boîte</mark>.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+      
+          <form action="">
+            <input id="champ39" type="text" placeholder="champ de formulaire">
+          </form>
+          <div id="boite39">boîte</div>
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_10">
+        <header class="clearfix">
+          <h1>3.10</h1>
+          <section>
+            <p>Au déclenchement de l'événement <mark>touche <kbd>H</kbd> enfoncée</mark>, <mark>vider toutes les boîtes de leur contenu</mark> (2 méthodes possibles).</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+       
+        <div>boîte 0</div>
+        <div>boîte 1</div>
+        <div>boîte 2</div>
+        <div>boîte 3</div>
+        <div>boîte 4</div>
+        <div>boîte 5</div>
+          
+      
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_11">
+        <header class="clearfix">
+          <h1>3.11</h1>
+          <section>
+            <p>En utilisant <mark>le couplage faible</mark>, <mark>cacher toute boîte</mark> ciblée par l'événement <mark>clic</mark>.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+    
+        <div>boîte 0</div>
+        <div>boîte 1</div>
+        <div>boîte 2</div>
+        <div>boîte 3</div>
+        <div>boîte 4</div>
+        <div>boîte 5</div>
+  
+        <!-- fin de la cible -->
+        </article>
+      </section>
+      
+      <!-- ------------------------------------------------ -->
+      
+      <section id="exercice_3_12">
+        <header class="clearfix">
+          <h1>3.12</h1>
+          <section>
+            <p>En utilisant <mark>le couplage faible</mark>, <mark>cacher toute boîte</mark> ciblée par l'événement <mark>clic</mark>, <mark>uniquement si la touche touche <kbd>SHIFT</kbd> est enfoncée</mark>.</p>
+          </section>
+        </header>
+        <article class="clearfix">
+        <!-- debut de la cible -->
+        
+        <div>boîte 0</div>
+        <div>boîte 1</div>
+        <div>boîte 2</div>
+        <div>boîte 3</div>
+        <div>boîte 4</div>
+        <div>boîte 5</div>
+         
+        <!-- fin de la cible -->
+        </article>
+      </section>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
